@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <STYLE>
+        ul>li>ul{
+            position: absolute;
+            top:13px;
+            left:140px;
+            display: none;
+        }
+
+        ul{
+            list-style-type: none;
+            display: block;
+        }
+        li{
+            display: block;
+            width: 150px;
+            height: 60px;
+            margin-top: 5px;
+
+            text-align: center;
+            line-height: 50px;
+            border-radius: 13px;
+            background-color: #497a43;
+            color: yellow;
+        }
+        li:hover{
+            background-color: #17281d;
+        }
+        #l1{
+            position: relative;
+        }
+        #u1:hover{
+
+            background-color: #17281d;
+            display: block;
+        }
+
+    </STYLE>
+
+
+
+</head>
+<body>
+
+<ul>
+    <li id="l1">章节
+
+        <ul id="u1">
+            <li>
+                思想品德
+            </li>
+            <li>
+                毛泽东理论
+            </li>
+            <li>
+                邓小平理论
+            </li>
+        </ul>
+
+    </li>
+
+    <li>问答</li>
+    <li>笔记</li>
+    <li>提问</li>
+</ul>
+
+
+
+</body>
+</html>
